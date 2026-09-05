@@ -1,0 +1,13 @@
+[project]
+name = "jwt-audit"
+version = "1.0.0"
+description = "Small, focused passive JWT security auditing CLI"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+jwt-audit = "jwt_audit.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
