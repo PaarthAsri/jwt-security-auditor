@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: jwt-audit
-Version: 1.0.0
-Summary: Small, focused passive JWT security auditing CLI
-Requires-Python: >=3.10

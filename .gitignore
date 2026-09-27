@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS metadata
+*.Zone.Identifier
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
